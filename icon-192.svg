@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="#04080f"/>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a2a4a"/>
+      <stop offset="100%" stop-color="#04080f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#16c784"/>
+    </linearGradient>
+  </defs>
+  <!-- Book shape -->
+  <rect x="44" y="52" width="104" height="88" rx="8" fill="none" stroke="#1d2e48" stroke-width="3"/>
+  <rect x="50" y="58" width="44" height="76" rx="4" fill="url(#accent)" opacity="0.15"/>
+  <rect x="98" y="58" width="44" height="76" rx="4" fill="url(#green)" opacity="0.12"/>
+  <line x1="96" y1="58" x2="96" y2="134" stroke="#1d2e48" stroke-width="2"/>
+  <!-- E text -->
+  <text x="96" y="108" text-anchor="middle" font-family="Georgia,serif" font-weight="900" font-size="42" fill="url(#accent)">E</text>
+  <!-- Green dot -->
+  <circle cx="138" cy="62" r="10" fill="url(#green)"/>
+  <text x="138" y="67" text-anchor="middle" font-family="Georgia,serif" font-weight="900" font-size="12" fill="#fff">P</text>
+</svg>
