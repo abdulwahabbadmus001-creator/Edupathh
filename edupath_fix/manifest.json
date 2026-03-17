@@ -1,0 +1,20 @@
+{
+  "name": "EduPath — Nigerian Exam Prep",
+  "short_name": "EduPath",
+  "description": "Free WAEC, NECO & JAMB past questions with spaced repetition. Study offline, anytime.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#04080f",
+  "theme_color": "#04080f",
+  "categories": ["education"],
+  "lang": "en-NG",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Smart Review", "short_name": "Review", "url": "./index.html#review" },
+    { "name": "WAEC Practice", "short_name": "WAEC", "url": "./index.html#waec" }
+  ]
+}
